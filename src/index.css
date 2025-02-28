@@ -1,0 +1,52 @@
+*{
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  height: 100%;
+  width: 100%;
+  font-family: 'montserrat';
+}
+
+.container {
+  background: #f6f6f6;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  background: url(https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2022/11/Sanchi-Stupa-Madhya-Pradesh-picsc-1.jpg?fit=1024%2C683&ssl=1);
+  background-size: cover;
+  background-position: center;
+  height: 36vh;
+  width: 60vh;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-left: 30px;
+  /* -webkit-backdrop-filter: ; */
+}
+
+/* Custom Scrollbar for suggestion box */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Remove arrow buttons */
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+}
